@@ -1,0 +1,35 @@
+author = "Epoch Mod Team";
+class Header
+{
+ gameType = Sandbox;
+ minPlayers = 1;
+ maxPlayers = 100;
+};
+respawn = "BASE";
+respawnDelay = 600;
+respawnDialog = 0;
+
+onLoadMission= "Epoch Mod Server Unofficial";
+OnLoadIntro = "Welcome to Epoch Mod";
+loadScreen = ""; 
+OnLoadIntroTime = False;
+OnLoadMissionTime = False;
+onLoadName = "Epoch Mod";
+disabledAI = true;
+scriptedPlayer = 1;
+disableChannels[]={0,1,2,6};
+enableItemsDropping = 0;
+briefing = 0;
+debriefing = 0;
+enableDebugConsole = 0;
+joinUnassigned = 0;
+respawnOnStart = 0;
+
+corpseLimit = 10;
+corpseRemovalMinTime = 1200;
+corpseRemovalMaxTime = 3600;
+
+wreckLimit = 0;
+wreckRemovalMinTime = 10;
+wreckRemovalMaxTime = 60;
+
